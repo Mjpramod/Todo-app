@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet"/>
+    <script src="script.js" defer></script>
+    <audio id="sound-alert" src="D:\todo app final\alarm-clock-beep-105903.mp3"></audio>
+    <audio id="sound-alert1"src="D:\todo app final\simple-short-call-loop-153308 (1).mp3"></audio>
+    <audio id="sound-alert2"src="D:\todo app final\GunShotSnglShotIn PE1097906.mp3"></audio>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="date-hour">
+            <p id="date"></p>
+            <p id="hour"></p>    
+        </div>
+        <header>
+            <div class="header">
+                <h2>Work schedule..</h2>
+            </div> 
+            <div class="new-todo">
+                <form id="todoform">
+                    <input type="text" name="newtodo" id="newtodo" placeholder="Enter work todo..."> 
+                    
+                    
+                    <button type="submit">
+                        <i class="fa-solid fa-square-plus"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+        <div id="todos-list">
+          <!---- <div class="todo" id="0">
+               <i class="fa-regular fa-circle"></i> 
+               <i class="fa-regular fa-circle-check"></i>
+               <p class="checked">sid wants milk</p>
+               <i class="fa-solid fa-pen-to-square"></i>
+               <i class="fa-solid fa-trash"></i>
+            </div> -->
+        </div>
+        <div class="notification">
+
+        </div>
+    </div>
+
+<body onload="time()">
+</body>
+    
+   
+</body>
+</html>
